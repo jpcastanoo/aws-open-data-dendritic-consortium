@@ -1,6 +1,8 @@
 # Dendritic Consortium Multimodal Dataset  
 ### Baz1a Neurons in Mouse Primary Visual Cortex (V1) and Hydra Vulgaris Endoderm Neurons
 
+![Header](img/header.jpg)
+
 ## Summary
 This dataset is generated through a collaboration of six leading neuroscience laboratories, collectively known as the Dendritic Consortium. It aims to redefine the traditional neuron model by focusing on dendrites as active computational units rather than passive inputs.
 
@@ -11,12 +13,12 @@ All experimental and computational data are made publicly available to accelerat
 ## About
 The Dendritic Consortium dataset challenges the traditional soma-centric view of neurons by focusing on the active computational role of dendrites. This paradigm shift is supported by combining data across molecular, structural, functional, and computational approaches.
 
-Data is collected using state-of-the-art neuroscience methods across six leading research laboratories from renowned institutions: Michael Lin's lab at Stanford University, Rafael Yuste's lab at Columbia University, Jayeeta Basu's lab at New York University, Elly Nedivi's lab at MIT, Jeff Lichtman's lab at Harvard University, and Idan Segev's lab at the Hebrew University of Jerusalem.
+Data is collected using state-of-the-art neuroscience methods across six leading research laboratories: Michael Lin's lab at Stanford University, Rafael Yuste's lab at Columbia University, Jayeeta Basu's lab at New York University, Elly Nedivi's lab at MIT, Jeff Lichtman's lab at Harvard University, and Idan Segev's lab at the Hebrew University of Jerusalem.
 
-## Data
+---
 
-### Overview
-- **Modalities**: Voltage imaging, optogenetics, patch-clamp electrophysiology, synaptic mapping, proteomics, electron microscopy (EM), computational modeling.
+### Data Overview
+- **Modalities**: Voltage and calcium imaging, electrophysiology data, synaptic mapping, proteomics, electron microscopy (EM), computational modeling.
 - **Species**: Mouse (Baz1a pyramidal neurons in V1), Hydra vulgaris (endoderm neurons).
 - **Size**: Approx. 50–100 TB, growing at ~30 TB/year.
 - **File formats**: TIFF, HDF5, GBK, ABF, PNG, PY, MAT, CSV, JSON, HOC, PKL, ASC/SWC.
@@ -29,15 +31,17 @@ The dataset contains multimodal files capturing:
 
 | Attribute               | Description                                                              |
 |-------------------------|--------------------------------------------------------------------------|
-| Voltage imaging files   | High temporal resolution optical voltage recordings in TIFF format       |
-| Electrophysiology data  | Patch-clamp recordings in ABF, MAT, and CSV formats                      |
-| Proteomics              | Protein expression and synaptic marker data in CSV format                |
-| EM Volumes              | 3D volumetric electron microscopy maps in TIFF/PNG                       |
-| Computational models    | Neuronal morphologies and simulations in SWC, HOC, PY, PKL formats       |
-| Metadata                | Stored in a database accessible via a GUI. Access details will be announced |
+| Voltage imaging files   | High temporal resolution optical voltage recordings in TIFF format.       |
+| Calcium imaging files   | Optical recordings capturing calcium dynamics in TIFF or PNG format.      |
+| Electrophysiology data  | Patch-clamp recordings in ABF, MAT, and CSV formats.                      |
+| Synaptic mapping        | Data related to synaptic connections and interactions in CSV format.      |
+| Proteomics              | Protein expression and synaptic marker data in CSV format.                |
+| EM Volumes              | 3D volumetric electron microscopy maps in TIFF/PNG.                       |
+| Computational models    | Neuronal morphologies and simulations in SWC, HOC, PY, PKL formats.       |
+| Metadata                | Stored in a database accessible via a GUI. Access details will be announced. |
 
 ### Dataset Metadata
-The dataset metadata is organized into several relational tables, each describing different aspects of the data stored in a AWS S3 public bucket. These tables provide essential context for data provenance, experimental conditions, and analysis outputs.
+The dataset metadata is organized into several relational tables, each describing different aspects of the data stored in a public AWS S3 bucket. These tables provide context regarding data provenance, experimental conditions, parameters, and other details.
 
 Below is a summary of the metadata tables included:
 
@@ -56,11 +60,11 @@ Below is a summary of the metadata tables included:
 | [**session**](json-schemas/session.json)            | Data acquisition events metadata (experimenter, date, anesthesia, etc.).                   | S         |
 | [**virus**](json-schemas/virus.json)              | Information on AAV vectors used for genetic delivery.                                     | V         |
 
-Detailed descriptions of each table's attributes (columns), including types and descriptions, are available in the [metadata/](metadata.md) directory. The metadata is organized by table name, including JSON schema files can be found on [json-schemas/](json-schemas).
+Detailed descriptions of each table's attributes (columns), including types and descriptions, are available in the [metadata.md](metadata.md) file. The metadata is organized by table name, with JSON schema files available in the [json-schemas/](json-schemas) directory.
 
 ---
 
-## Data Formats
+## File Formats
 Data is provided in a variety of widely used neuroscience and imaging formats, enabling flexible analysis pipelines:
 
 - **TIFF/HDF5** for imaging data  
@@ -68,7 +72,7 @@ Data is provided in a variety of widely used neuroscience and imaging formats, e
 - **JSON** for structured metadata and annotations  
 - **SWC, HOC, PKL** for neuron morphology and simulation files  
 
-## Data Access
+## Access and Structure
 The dataset will be hosted on AWS S3 with a structured directory layout to facilitate scalable cloud access:
 ```
 s3://dendritic-consortium-open-data/
@@ -86,4 +90,4 @@ Tutorials to guide users through accessing and analyzing the dataset on AWS clou
 ## License
 This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
-*This dataset is a collaborative effort among Columbia University, Stanford University, New York University, Harvard University, MIT, and the Hebrew University of Jerusalem.*
+This dataset is a collaboration between Columbia University, Stanford University, New York University, Harvard University, MIT, and Hebrew University of Jerusalem.
