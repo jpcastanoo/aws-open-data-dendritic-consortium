@@ -1,0 +1,41 @@
+{
+  "model": {
+    "attributes": [
+      {
+        "attribute": "model_id",
+        "type": "ID",
+        "description": "Unique model identifier"
+      },
+      {
+        "attribute": "model_type",
+        "type": "str",
+        "description": "Type of model (e.g. biophysical, deep neural network)"
+      },
+      {
+        "attribute": "model_version",
+        "type": "str",
+        "description": "Version identifier for model iteration"
+      },
+      {
+        "attribute": "file_path_model",
+        "type": "str",
+        "description": "S3 path to compiled/saved model"
+      },
+      {
+        "attribute": "file_path_script",
+        "type": "str",
+        "description": "S3 path to script used for model construction"
+      },
+      {
+        "attribute": "description",
+        "type": "str",
+        "description": "Description of the model"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
