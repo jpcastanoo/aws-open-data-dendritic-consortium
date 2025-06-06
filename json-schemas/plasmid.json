@@ -1,0 +1,51 @@
+{
+  "plasmid": {
+    "attributes": [
+      {
+        "attribute": "plasmid_id",
+        "type": "ID",
+        "description": "Unique plasmid identifier"
+      },
+      {
+        "attribute": "plasmid_name",
+        "type": "str",
+        "description": "Full name of the plasmid"
+      },
+      {
+        "attribute": "gene",
+        "type": "str",
+        "description": "Gene encoded by the plasmid (e.g. GCaMP6, tdTomato)"
+      },
+      {
+        "attribute": "indicator",
+        "type": "str",
+        "description": "Type of reporter protein (e.g. voltage/calcium indicator, optogenetic actuator)"
+      },
+      {
+        "attribute": "wavelength",
+        "type": "int",
+        "description": "Emission peak in nanometers"
+      },
+      {
+        "attribute": "backbone",
+        "type": "str",
+        "description": "Vector backbone used (e.g. pAAV)"
+      },
+      {
+        "attribute": "promoter",
+        "type": "str",
+        "description": "Promoter driving expression (e.g. syn, Camk2a, CAG)"
+      },
+      {
+        "attribute": "tuning",
+        "type": "str",
+        "description": "Polarity of response, if applicable (e.g. positive, negative)"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
