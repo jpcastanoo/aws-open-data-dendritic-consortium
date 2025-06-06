@@ -1,0 +1,61 @@
+{
+  "mouse": {
+    "attributes": [
+      {
+        "attribute": "litter_id",
+        "type": "ID",
+        "description": "Unique litter identifier"
+      },
+      {
+        "attribute": "mouse_id",
+        "type": "ID",
+        "description": "Unique mouse identifier"
+      },
+      {
+        "attribute": "strain",
+        "type": "str",
+        "description": "Mouse strain. Use semicolons to separate double transgenic lines (e.g. Camk2a-Cre;Ai162)"
+      },
+      {
+        "attribute": "genotype",
+        "type": "str",
+        "description": "Allelic state of each transgene. Use semicolons to separate loci (e.g. “+/-;+/-” for double transgenic)"
+      },
+      {
+        "attribute": "cre_line",
+        "type": "str",
+        "description": "Cre driver line, if applicable (e.g. Camk2a-Cre)"
+      },
+      {
+        "attribute": "sex",
+        "type": "str",
+        "description": "Biological sex (M or F)"
+      },
+      {
+        "attribute": "birth_date",
+        "type": "date",
+        "description": "Date of birth (e.g 20250101)"
+      },
+      {
+        "attribute": "weight",
+        "type": "float",
+        "description": "Body weight in grams"
+      },
+      {
+        "attribute": "plasmid_id",
+        "type": "ID",
+        "description": "Plasmid used (if any)"
+      },
+      {
+        "attribute": "virus_id",
+        "type": "ID",
+        "description": "AAV used (if any)"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
