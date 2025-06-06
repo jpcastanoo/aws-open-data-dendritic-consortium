@@ -1,0 +1,66 @@
+{
+  "sem_dataset": {
+    "attributes": [
+      {
+        "attribute": "sem_dataset_id",
+        "type": "ID",
+        "description": "Unique SEM dataset identifier"
+      },
+      {
+        "attribute": "mouse_id",
+        "type": "ID",
+        "description": "Associated mouse identifier"
+      },
+      {
+        "attribute": "section",
+        "type": "str",
+        "description": "Related brain section"
+      },
+      {
+        "attribute": "resolution",
+        "type": "float",
+        "description": "Pixel resolution in nanometers (nm/pixel)"
+      },
+      {
+        "attribute": "start_date",
+        "type": "date",
+        "description": "Start date for dataset acquisition"
+      },
+      {
+        "attribute": "end_date",
+        "type": "date",
+        "description": "End date for dataset acquisition"
+      },
+      {
+        "attribute": "file_path_local",
+        "type": "str",
+        "description": "Local path to dataset file"
+      },
+      {
+        "attribute": "file_path_raw",
+        "type": "str",
+        "description": "S3 path to raw dataset file"
+      },
+      {
+        "attribute": "file_path_processed",
+        "type": "str",
+        "description": "S3 path to processed dataset (alignment and stitching)"
+      },
+      {
+        "attribute": "file_path_viewer",
+        "type": "str",
+        "description": "S3 path to dataset in a compatible format for viewer tool"
+      },
+      {
+        "attribute": "file_path_script",
+        "type": "str",
+        "description": "S3 path to script used for processing"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
