@@ -1,0 +1,46 @@
+{
+  "session": {
+    "attributes": [
+      {
+        "attribute": "session_id",
+        "type": "ID",
+        "description": "Unique session identifier"
+      },
+      {
+        "attribute": "mouse_id",
+        "type": "ID",
+        "description": "Associated mouse identifier"
+      },
+      {
+        "attribute": "experimenter",
+        "type": "str",
+        "description": "Experimenter’s first and last name"
+      },
+      {
+        "attribute": "session_date",
+        "type": "date",
+        "description": "Date of session (e.g 20250101)"
+      },
+      {
+        "attribute": "start_time",
+        "type": "time",
+        "description": "Start time of session"
+      },
+      {
+        "attribute": "end_time",
+        "type": "time",
+        "description": "End time of session"
+      },
+      {
+        "attribute": "anesthesia",
+        "type": "str",
+        "description": "Name of analgesic (if any)"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
