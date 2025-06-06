@@ -1,0 +1,46 @@
+{
+  "cell_detection_dataset": {
+    "attributes": [
+      {
+        "attribute": "cell_dataset_id",
+        "type": "ID",
+        "description": "Unique cell detection dataset identifier"
+      },
+      {
+        "attribute": "mouse_id",
+        "type": "ID",
+        "description": "Associated mouse identifier"
+      },
+      {
+        "attribute": "tool",
+        "type": "str",
+        "description": "Software or algorithm used for cell detection"
+      },
+      {
+        "attribute": "start_date",
+        "type": "date",
+        "description": "Start date for dataset acquisition"
+      },
+      {
+        "attribute": "end_date",
+        "type": "date",
+        "description": "End date for dataset acquisition"
+      },
+      {
+        "attribute": "file_path_local",
+        "type": "str",
+        "description": "Local path to dataset file"
+      },
+      {
+        "attribute": "file_path",
+        "type": "str",
+        "description": "S3 path to dataset file"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
