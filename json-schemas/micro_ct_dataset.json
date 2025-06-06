@@ -1,0 +1,51 @@
+{
+  "micro_ct_dataset": {
+    "attributes": [
+      {
+        "attribute": "micro_ct_id",
+        "type": "ID",
+        "description": "Unique micro-CT dataset identifier"
+      },
+      {
+        "attribute": "mouse_id",
+        "type": "ID",
+        "description": "Associated mouse identifier"
+      },
+      {
+        "attribute": "voxel_size",
+        "type": "float",
+        "description": "Voxel resolution in micrometers (µm)"
+      },
+      {
+        "attribute": "contrast_agent",
+        "type": "str",
+        "description": "Contrast agent used (if any)"
+      },
+      {
+        "attribute": "start_date",
+        "type": "date",
+        "description": "Start date for dataset acquisition"
+      },
+      {
+        "attribute": "end_date",
+        "type": "date",
+        "description": "End date for dataset acquisition"
+      },
+      {
+        "attribute": "file_path_local",
+        "type": "str",
+        "description": "Local path to dataset file"
+      },
+      {
+        "attribute": "file_path",
+        "type": "str",
+        "description": "S3 path to dataset file"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
