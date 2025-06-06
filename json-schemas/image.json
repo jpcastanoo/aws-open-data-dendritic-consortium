@@ -1,0 +1,106 @@
+{
+  "image": {
+    "attributes": [
+      {
+        "attribute": "image_id",
+        "type": "ID",
+        "description": "Unique file identifier"
+      },
+      {
+        "attribute": "session_id",
+        "type": "ID",
+        "description": "Associated session"
+      },
+      {
+        "attribute": "image_type",
+        "type": "str",
+        "description": "Type of image (e.g. voltage, calcium, fluorescence)"
+      },
+      {
+        "attribute": "frame_rate",
+        "type": "float",
+        "description": "Acquisition rate in Hertz (Hz)"
+      },
+      {
+        "attribute": "x",
+        "type": "int",
+        "description": "Image width in pixels (horizontal dimension)"
+      },
+      {
+        "attribute": "y",
+        "type": "int",
+        "description": "Image height in pixels (vertical dimension)"
+      },
+      {
+        "attribute": "z",
+        "type": "int",
+        "description": "Number of images on stack (stack depth)"
+      },
+      {
+        "attribute": "pixel_size",
+        "type": "float",
+        "description": "Size of each pixel in micrometers (µm/pixel)"
+      },
+      {
+        "attribute": "numerical_aperture",
+        "type": "float",
+        "description": "Objective numerical aperture"
+      },
+      {
+        "attribute": "objective_magn",
+        "type": "str",
+        "description": "Objective magnification (e.g. 20x, 40x)"
+      },
+      {
+        "attribute": "exposure_time",
+        "type": "float",
+        "description": "Exposure time per frame in milliseconds (ms)"
+      },
+      {
+        "attribute": "laser_power",
+        "type": "float",
+        "description": "Laser power used in milliwatts (mW)"
+      },
+      {
+        "attribute": "laser_line",
+        "type": "int",
+        "description": "Wavelength of laser used in nanometers (nm)"
+      },
+      {
+        "attribute": "processing_methods",
+        "type": "str",
+        "description": "Methods used in image processing"
+      },
+      {
+        "attribute": "roi_tool",
+        "type": "str",
+        "description": "Software/tool used for ROI annotation (if any)"
+      },
+      {
+        "attribute": "file_path_raw",
+        "type": "str",
+        "description": "S3 path to raw image file or stack"
+      },
+      {
+        "attribute": "file_path_processed",
+        "type": "str",
+        "description": "S3 path to processed image file or stack"
+      },
+      {
+        "attribute": "file_path_roi",
+        "type": "str",
+        "description": "S3 path to ROI annotation file"
+      },
+      {
+        "attribute": "file_path_script",
+        "type": "str",
+        "description": "S3 path to processing script"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
