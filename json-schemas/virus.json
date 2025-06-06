@@ -1,0 +1,41 @@
+{
+  "virus": {
+    "attributes": [
+      {
+        "attribute": "virus_id",
+        "type": "ID",
+        "description": "Unique AAV identifier"
+      },
+      {
+        "attribute": "virus_name",
+        "type": "str",
+        "description": "Full name of the AAV"
+      },
+      {
+        "attribute": "plasmid_id",
+        "type": "ID",
+        "description": "Linked plasmid ID"
+      },
+      {
+        "attribute": "serotype",
+        "type": "str",
+        "description": "AAV serotype (e.g. AAV1, AAV9)"
+      },
+      {
+        "attribute": "floxed",
+        "type": "bool",
+        "description": "TRUE if expression is Cre-dependent, FALSE if not"
+      },
+      {
+        "attribute": "titer",
+        "type": "str",
+        "description": "Viral concentration in genome copies per mL (GC/mL)"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
