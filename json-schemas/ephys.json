@@ -1,0 +1,51 @@
+{
+  "ephys": {
+    "attributes": [
+      {
+        "attribute": "ephys_id",
+        "type": "ID",
+        "description": "Unique electrophysiology file identifier"
+      },
+      {
+        "attribute": "session_id",
+        "type": "ID",
+        "description": "Associated session"
+      },
+      {
+        "attribute": "recording_type",
+        "type": "str",
+        "description": "Type of recording (e.g. dendritic patch, ex vivo, in vivo)"
+      },
+      {
+        "attribute": "processing_methods",
+        "type": "str",
+        "description": "Processing methods applied"
+      },
+      {
+        "attribute": "sampling_rate",
+        "type": "float",
+        "description": "Sampling rate in Hertz (Hz)"
+      },
+      {
+        "attribute": "file_path_raw",
+        "type": "str",
+        "description": "S3 path to raw file"
+      },
+      {
+        "attribute": "file_path_processed",
+        "type": "str",
+        "description": "S3 path to processed file"
+      },
+      {
+        "attribute": "file_path_script",
+        "type": "str",
+        "description": "S3 path to script file"
+      },
+      {
+        "attribute": "notes",
+        "type": "str",
+        "description": "Additional comments"
+      }
+    ]
+  }
+}
