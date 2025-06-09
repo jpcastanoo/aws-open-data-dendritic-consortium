@@ -6,7 +6,7 @@
 ## Summary
 This dataset is generated through a collaboration of six leading neuroscience laboratories, collectively known as the Dendritic Consortium. It aims to redefine the traditional neuron model by focusing on dendrites as active computational units rather than passive inputs.
 
-The dataset integrates multimodal data from Baz1a pyramidal neurons in the mouse primary visual cortex (V1) and the endoderm neurons of Hydra vulgaris. It includes high-resolution modalities such as in vivo voltage imaging, optogenetics, dendritic patch-clamp recordings, synaptic mapping, proteomics, volumetric EM-based maps, and computational neuronal models.
+The dataset integrates multimodal data from Baz1a pyramidal neurons in the mouse primary visual cortex (V1) and the endoderm neurons of Hydra vulgaris. It includes high-resolution modalities such as in vivo voltage imaging, dendritic patch-clamp recordings, synaptic mapping, proteomics, volumetric EM-based maps, and computational neuronal models.
 
 All experimental and computational data are made publicly available to accelerate neuroscience research and promote community collaboration.
 
@@ -18,15 +18,15 @@ Data is collected using state-of-the-art neuroscience methods across six leading
 ---
 
 ### Data Overview
-- **Modalities**: Voltage and calcium imaging, electrophysiology data, synaptic mapping, proteomics, electron microscopy (EM), computational modeling.
+- **Modalities**: Voltage imaging, electrophysiology data, synaptic mapping, proteomics, volumetric electron microscopy-based maps, computational modeling.
 - **Species**: Mouse (Baz1a pyramidal neurons in V1), Hydra vulgaris (endoderm neurons).
 - **Size**: Approx. 50–100 TB, growing at ~30 TB/year.
 - **File formats**: TIFF, HDF5, GBK, ABF, PNG, PY, MAT, CSV, JSON, HOC, PKL, ASC/SWC.
 
 ### Update Cadence
-The dataset is continuously expanding as participating laboratories within the consortium generate new experimental and computational data. Regular updates are expected to be released periodically to incorporate the latest findings and models, ensuring the resource remains current and comprehensive.
+The dataset is continuously expanding as participating laboratories within the consortium generate new experimental and computational data on a regular basis. 
 
-### Data Attributes
+### Data Available and File Formats
 The dataset contains multimodal files capturing:
 
 | Attribute               | Description                                                              |
@@ -63,14 +63,6 @@ Below is a summary of the metadata tables included:
 Detailed descriptions of each table's attributes (columns), including types and descriptions, are available in the [metadata.md](metadata.md) file. The metadata is organized by table name, with JSON schema files available in the [json-schemas/](json-schemas) directory.
 
 ---
-
-## File Formats
-Data is provided in a variety of widely used neuroscience and imaging formats, enabling flexible analysis pipelines:
-
-- **TIFF/HDF5** for imaging data  
-- **ABF, MAT, CSV** for electrophysiology and metadata  
-- **JSON** for structured metadata and annotations  
-- **SWC, HOC, PKL** for neuron morphology and simulation files  
 
 ## Access and Structure
 The dataset will be hosted on AWS S3 with a structured directory layout to facilitate scalable cloud access:
