@@ -68,8 +68,7 @@ s3://dendritic-consortium-open-data/
 Data access is open, and no sign-in is required for downloads. Detailed access instructions and AWS CLI examples will be provided once the dataset is publicly available.
 
 ## Tutorials
-Tutorials to guide users through accessing and analyzing the dataset on AWS cloud will be available for future release.
 
----
+Step-by-step examples to access, download, and analyze the multimodal dataset on AWS are available in the [/tutorials](tutorials) directory. These tutorials demonstrate how to use both **Python** and the **AWS CLI** to interact with the data, including how to retrieve, visualize, and process various modalities such as imaging and electrophysiology recordings.
 
 *This dataset is a collaboration between Columbia University, Stanford University, New York University, Harvard University, MIT, and Hebrew University of Jerusalem.*
