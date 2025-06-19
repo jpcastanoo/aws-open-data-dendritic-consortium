@@ -4,7 +4,7 @@
 ![Header](img/header.jpg)
 
 ## Summary
-This dataset provides a comprehensive collection of multimodal data resulting from the collaboration of six leading neuroscience laboratories, collectively known as the Dendritic Consortium. The data integrates various high-resolution modalities, including in vivo voltage imaging, dendritic patch-clamp recordings, synaptic mapping, proteomics, volumetric EM-based maps, and computational neuronal models. These datasets are derived from research on Baz1a pyramidal neurons in the mouse primary visual cortex (V1) and endoderm neurons of Hydra vulgaris. The data is publicly available to foster collaboration and accelerate neuroscience research.
+This dataset provides a comprehensive collection of multimodal data resulting from the collaboration of six leading neuroscience laboratories, collectively known as the Dendritic Consortium. The data integrates various high-resolution modalities, including in vivo voltage imaging, dendritic patch-clamp recordings, synaptic mapping, proteomics, volumetric EM-based maps, and computational neuronal models. These datasets are derived from research on Baz1a pyramidal neurons in the mouse primary visual cortex (V1) and endoderm neurons of *Hydra vulgaris*. The data is publicly available to foster collaboration and accelerate neuroscience research.
 
 ## About
 The Dendritic Consortium dataset challenges the conventional model of neurons by emphasizing dendrites as active computational units, rather than passive structures. This approach is supported by a multidisciplinary combination of molecular, structural, functional, and computational data, collected using advanced neuroscience techniques. The project brings together six prestigious research laboratories: Michael Lin's lab at Stanford University, Rafael Yuste's lab at Columbia University, Jayeeta Basu's lab at New York University, Elly Nedivi's lab at MIT, Jeff Lichtman's lab at Harvard University, and Idan Segev's lab at the Hebrew University of Jerusalem. Together, we aim to expand our understanding of dendritic function and its role in neuronal processing.
@@ -13,7 +13,7 @@ The Dendritic Consortium dataset challenges the conventional model of neurons by
 
 #### Overview
 
-To fully understand dendritic function, it's essential to gather multimodal data from various experimental and computational approaches. This dataset includes voltage imaging, electrophysiology data, synaptic mapping, proteomics, volumetric electron microscopy-based maps, and computational models. These diverse techniques provide a comprehensive view of neural function across two species: Mus musculus (focusing on Baz1a pyramidal neurons in the primary visual cortex) and Hydra vulgaris (with EM-data from its endodermal neurons). The dataset is available in multiple file formats, including TIFF, HDF5, GBK, ABF, PNG, PY, MAT, CSV, JSON, HOC, PKL, and ASC/SWC.
+To fully understand dendritic function, it's essential to gather multimodal data from various experimental and computational approaches. This dataset includes voltage imaging, electrophysiology data, synaptic mapping, proteomics, volumetric electron microscopy-based maps, and computational models. These diverse techniques provide a comprehensive view of neural function across two species: Mus musculus (focusing on Baz1a pyramidal neurons in the primary visual cortex) and *Hydra vulgaris* (with EM-data from its endodermal neurons). The dataset is available in multiple file formats, including TIFF, HDF5, GBK, ABF, PNG, PY, MAT, CSV, JSON, HOC, PKL, and ASC/SWC.
 
 <p align="center">
   <img src="img/dendritic-consortium.png" width="500"/>
@@ -55,7 +55,7 @@ The dataset metadata is organized into relational tables that describe various a
 | **virus**                      | Information on AAV vectors used for genetic delivery.                                     | [virus.json](json-schemas/virus.json)                                   |
 
 ## Data Access
-The dataset will be publicly available on an AWS S3 bucket (access details to be announced) with a well-organized directory structure to facilitate easy and scalable access. You can explore the data using the following path:
+The dataset will be publicly available on an [AWS S3](https://aws.amazon.com/s3/) bucket (access details to be announced) with a well-organized directory structure to facilitate easy and scalable access. You can explore the data using the following path:
 
 ```
 s3://dendritic-consortium-open-data/
