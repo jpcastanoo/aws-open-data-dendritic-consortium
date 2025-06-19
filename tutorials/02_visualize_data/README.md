@@ -23,7 +23,7 @@ plt.imshow(img, cmap='gray')
 plt.axis('off')
 plt.show()
 ```
-![Sample Voltage Imaging](tutorials/01_access_data_from_s3/single_sample_image.png)
+![Sample Voltage Imaging](tutorials/02_visualize_data/single_sample_image.png)
 
 ## Visualizing a electrophysiological data
 ```
