@@ -58,7 +58,7 @@ The dataset metadata is organized into relational tables that describe various a
 The dataset will be publicly available on an [AWS S3](https://aws.amazon.com/s3/) bucket (access details to be announced) with a well-organized directory structure to facilitate easy and scalable access. You can explore the data using the following path:
 
 ```
-s3://dendritic-consortium-open-data/
+s3://dendritic-consortium/
 ├── lab-name/             ← Root folder for each participating lab
   ├── YYYYMMDD/           ← Date of the experimental session
     ├── object-type/      ← Data modality or type (e.g., image, ephys, sem_dataset)
@@ -69,6 +69,6 @@ Data access is open, and no sign-in is required for downloads. Detailed access i
 
 ## Tutorials
 
-Step-by-step examples to access, download, and analyze the multimodal dataset on AWS are available in the [/tutorials](tutorials) directory. These tutorials demonstrate how to use both **Python** and the **AWS CLI** to interact with the data, including how to retrieve, visualize, and process various modalities such as imaging and electrophysiology recordings.
+Step-by-step examples to access, download, and analyze the multimodal dataset on AWS are available in the [/tutorials](tutorials) directory. These tutorials demonstrate how to use both Python and the AWS CLI to interact with the data, including how to retrieve, visualize, and process various modalities such as imaging and electrophysiology recordings.
 
 *This dataset is a collaboration between Columbia University, Stanford University, New York University, Harvard University, MIT, and Hebrew University of Jerusalem.*
