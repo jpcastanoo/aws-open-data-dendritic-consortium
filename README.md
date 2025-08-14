@@ -71,4 +71,4 @@ Data access is open, and no sign-in is required for downloads. Detailed access i
 
 Step-by-step examples to access, download, and analyze the multimodal dataset on AWS are available in the [/tutorials](tutorials) directory. These tutorials demonstrate how to use both Python and the AWS CLI to interact with the data, including how to retrieve, visualize, and process various modalities such as imaging and electrophysiology recordings.
 
-*This dataset is a collaboration between Columbia University, Stanford University, New York University, Harvard University, MIT, and Hebrew University of Jerusalem.*
+*This dataset is a collaboration between Columbia University, Stanford University, New York University, Harvard University, and MIT.*
